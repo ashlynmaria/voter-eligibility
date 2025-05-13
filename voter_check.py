@@ -4,4 +4,5 @@ if age >= 18:
     print("🎉 Congratulations! You are eligible to vote. Go make a difference!")
 else:
     waiting_years = 18 - age
-    print(f"🥺 Oops! You're not eligible yet. But hey, only {waiting_years} more years to go!")
+    year_word = "year" if waiting_years == 1 else "years"
+    print(f"🥺 Oops! You're not eligible yet. But hey, only {waiting_years} more {year_word} to go!")
